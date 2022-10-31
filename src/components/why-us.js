@@ -17,7 +17,7 @@ const Why = () => {
             <div className="col-lg-3 col-md-6">
               <div className="card Why-border">
                 <div className="card-body Why-box">
-                  <img src={iconComplete} alt="" />
+                  <img src={iconComplete} alt="" loading="lazy" />
                   <h4>Mobil Lengkap</h4>
                   <p>
                     Tersedia banyak pilihan mobil,
@@ -29,7 +29,7 @@ const Why = () => {
             <div className="col-lg-3 col-md-6">
               <div className="card Why-border">
                 <div className="card-body Why-box">
-                  <img src={iconPrice} alt="" />
+                  <img src={iconPrice} alt="" loading="lazy" />
                   <h4>Harga Murah</h4>
                   <p>
                     Harga murah dan bersaing, bisa bandingkan harga kami dengan
@@ -41,7 +41,7 @@ const Why = () => {
             <div className="col-lg-3 col-md-6">
               <div className="card Why-border">
                 <div className="card-body Why-box">
-                  <img src={icon24} alt="" />
+                  <img src={icon24} alt="" loading="lazy" />
                   <h4>Layanan 24 Jam</h4>
                   <p>
                     Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami
@@ -53,7 +53,7 @@ const Why = () => {
             <div className="col-lg-3 col-md-6">
               <div className="card Why-border">
                 <div className="card-body Why-box">
-                  <img src={iconProf} alt="" />
+                  <img src={iconProf} alt="" loading="lazy" />
                   <h4>Sopir Profesional</h4>
                   <p>
                     Sopir yang profesional, berpengalaman, jujur, ramah dan

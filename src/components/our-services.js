@@ -10,7 +10,7 @@ const ourSer = () => {
           <div className="row">
             <div className="col-lg-6 col-md-12">
               <div className="hapy-girl">
-                <img src={hapygirl} alt="" />
+                <img src={hapygirl} alt="" loading="lazy" />
               </div>
             </div>
             <div className="col-lg-6 col-md-12">
@@ -23,23 +23,23 @@ const ourSer = () => {
                   bisnis, wedding, meeting, dll.
                 </p>
                 <ul>
-                  <img src={iconcheck} alt="" />
+                  <img src={iconcheck} alt="" loading="lazy" />
                   <li>Sewa Mobil Dengan Supir di Bali 12 Jam</li>
                 </ul>
                 <ul>
-                  <img src={iconcheck} alt="" />
+                  <img src={iconcheck} alt="" loading="lazy" />
                   <li>Sewa Mobil Lepas Kunci di Bali 24 Jam</li>
                 </ul>
                 <ul>
-                  <img src={iconcheck} alt="" />
+                  <img src={iconcheck} alt="" loading="lazy" />
                   <li>Sewa Mobil Jangka Panjang Bulanan</li>
                 </ul>
                 <ul>
-                  <img src={iconcheck} alt="" />
+                  <img src={iconcheck} alt="" loading="lazy" />
                   <li>Gratis Antar - Jemput Mobil di Bandara</li>
                 </ul>
                 <ul>
-                  <img src={iconcheck} alt="" />
+                  <img src={iconcheck} alt="" loading="lazy" />
                   <li>Layanan Airport Transfer / Drop In Out</li>
                 </ul>
               </div>

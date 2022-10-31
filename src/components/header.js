@@ -19,7 +19,7 @@ const Header = () => {
       <div className="container">
         <div className="row">
           <div className="logo">
-            <img src={Logo} alt="logo saya" />
+            <img src={Logo} alt="logo saya" loading="lazy" />
           </div>
           <div className={`overlay-bg ${active ? "menu-active" : ""}`} />
           <div
@@ -29,7 +29,7 @@ const Header = () => {
             <div className="top-sidebar">
               <h3>BCR</h3>
               <div className="close-icon">
-                <img src={CloseButton} alt="" />
+                <img src={CloseButton} alt="" loading="lazy" />
               </div>
             </div>
             <ul className="menu">
@@ -49,7 +49,7 @@ const Header = () => {
           </div>
 
           <div className="burger-icon" onClick={openSidebar}>
-            <img src={Menu} alt="" />
+            <img src={Menu} alt="" loading="lazy" />
           </div>
         </div>
       </div>

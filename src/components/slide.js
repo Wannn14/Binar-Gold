@@ -46,11 +46,11 @@ export default class PreviousNextMethods extends Component {
                 <Card>
                   <Card.Body className="body-testi">
                     <div className="card_kiri">
-                      <img src={img2} alt="" />
+                      <img src={img2} alt="" loading="lazy" />
                     </div>
                     <div className="card_kanan">
                       <div className="faq-icon">
-                        <img src={rate} alt="" />
+                        <img src={rate} alt="" loading="lazy" />
                       </div>
                       <p>
                         “Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -70,11 +70,11 @@ export default class PreviousNextMethods extends Component {
                 <Card>
                   <Card.Body className="body-testi">
                     <div className="card_kiri">
-                      <img src={img2} alt="" />
+                      <img src={img2} alt="" loading="lazy" />
                     </div>
                     <div className="card_kanan">
                       <div className="faq-icon">
-                        <img src={rate} alt="" />
+                        <img src={rate} alt="" loading="lazy" />
                       </div>
                       <p>
                         “Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -94,11 +94,11 @@ export default class PreviousNextMethods extends Component {
                 <Card>
                   <Card.Body className="body-testi">
                     <div className="card_kiri">
-                      <img src={img1} alt="" />
+                      <img src={img1} alt="" loading="lazy" />
                     </div>
                     <div className="card_kanan">
                       <div className="faq-icon">
-                        <img src={rate} alt="" />
+                        <img src={rate} alt="" loading="lazy" />
                       </div>
                       <p>
                         “Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -118,11 +118,11 @@ export default class PreviousNextMethods extends Component {
                 <Card>
                   <Card.Body className="body-testi">
                     <div className="card_kiri">
-                      <img src={img1} alt="" />
+                      <img src={img1} alt="" loading="lazy" />
                     </div>
                     <div className="card_kanan">
                       <div className="faq-icon">
-                        <img src={rate} alt="" />
+                        <img src={rate} alt="" loading="lazy" />
                       </div>
                       <p>
                         “Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -139,10 +139,10 @@ export default class PreviousNextMethods extends Component {
           </Slider>
           <div className="btnprevnext">
             <button className="btnprev">
-              <img src={left} alt="" onClick={this.previous} />
+              <img src={left} alt="" onClick={this.previous} loading="lazy" />
             </button>
             <button className="btnnext">
-              <img src={right} alt="" onClick={this.next} />
+              <img src={right} alt="" onClick={this.next} loading="lazy" />
             </button>
           </div>
         </div>

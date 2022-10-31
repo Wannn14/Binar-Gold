@@ -20,7 +20,7 @@ const Banner = () => {
           </div>
         </div>
         <div className="hero-thumbnail">
-          <img src={carbg} alt="" />
+          <img src={carbg} alt="" loading="lazy" />
         </div>
       </section>
     </>

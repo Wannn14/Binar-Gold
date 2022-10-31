@@ -50,7 +50,7 @@ const Foot = () => {
               <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 text-foot2">
                 <h6>Copyright Binar 2022</h6>
                 <div>
-                  <img src={logo} alt="" />
+                  <img src={logo} alt="" loading="lazy" />
                 </div>
               </div>
             </div>

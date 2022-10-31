@@ -127,6 +127,7 @@ const Hasil = () => {
                           }
                           className="card-img-top"
                           alt="..."
+                          loading="lazy"
                         />
                       </div>
                       <div className="card-deskripsi">
@@ -155,7 +156,7 @@ const Hasil = () => {
           {emptyData && (
             <>
               <div>
-                <img src={notfound} alt="" />
+                <img src={notfound} alt="" loading="lazy" />
                 <div className="text-center data-allert">
                   Data Tidak Ditemukan
                 </div>

@@ -93,11 +93,11 @@ const Detail = () => {
           </Col>
           <Col lg={5} md={12}>
             <Card>
-              <img src={detail.image} alt="" />
+              <img src={detail.image} alt="" loading="lazy" />
               <Card.Body>
                 <Card.Title> {detail.name} </Card.Title>
                 <div className="icon-user">
-                  <img src={User} alt="" />
+                  <img src={User} alt="" loading="lazy" />
                   <div>
                     {(() => {
                       switch (detail.category) {
